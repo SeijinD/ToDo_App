@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+<title>Edit Todo</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Edit Todo</h1>
+    <form action="" method="post">
+        <input name="todo_name" placeholder="New Todo" value="{{ todo.name }}">
+        <button>Change Name</button>
+    </form>
+{% endblock %}
